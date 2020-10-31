@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8A2BE2;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.canvas-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#settings-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.input-combo {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.create-button-combo{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.input-combo .input-field {
+    margin-right: 10px;
+    width: 15%;
+}
+
+.input-combo input[type=button] {
+    padding: 3px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#create-tree {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}

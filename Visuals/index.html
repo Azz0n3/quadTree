@@ -1,0 +1,41 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>QuadTree</title>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="settings-area">
+            <div class="input-combo">
+                <input id="points-entry" class="input-field" />
+                <input id="add-points" type="button" value="Adicionar Pontos" />
+            </div>
+            <div class="input-combo">
+                <input id="maximum-points-entry" class="input-field" value=2 />
+                <label for="maximum-points-entry">Pontos por quadTree</label>
+            </div>
+            <div class="create-button-combo">
+                <input id="create-tree" type="button" value="Criar QuadTree" />
+            </div>
+        </div>
+        <div class="canvas-wrapper">
+            <h1>Exemplo de QuadTree</h1>
+            <div>
+                <canvas id="myCanvas" width="500" height="500" style="border:5px solid #000000">
+                    Your browser does not support the canvas element.
+                </canvas>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="../Scripts/rectangle.js"></script>
+<script src="../Scripts/quadTree.js"></script>
+<script src="../Scripts/app.js"></script>
+
+</html>
